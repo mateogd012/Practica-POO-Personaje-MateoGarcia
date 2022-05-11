@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Practica_POO_Personaje
 {
-    internal interface IMoverse
+    public interface IMoverse
     {
-        public void MoverseEjeX(int Moverse);
-        public void MoverseEjeY(int Moverse);
+        string MoverseEjeX();
+        string MoverseEjeY();
     }
 }

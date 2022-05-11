@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practica_POO_Personaje
 {
-    internal abstract class Personaje
+    public abstract class Personaje
     {
         protected string nombre;
         protected int fuerza;

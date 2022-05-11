@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practica_POO_Personaje
 {
-    internal class PersonajeDeMagia : Personaje
+    public class PersonajeDeMagia : Personaje
     {
         public PersonajeDeMagia(string nomb, int fuer, int ag, int mag)
         {
@@ -32,5 +32,14 @@ namespace Practica_POO_Personaje
             Console.WriteLine($"{nombre} dominó con {dañoMagico} de daño gracias a su magia");
 
         }
+    }
+    public string MoverseEjeX()
+    {
+        throw new NotImplementedException();
+    }
+
+    public string MoverseEjeY()
+    {
+        throw new NotImplementedException();
     }
 }
